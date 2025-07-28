@@ -14,8 +14,8 @@ services:
         container_name: undangan-db
         environment:
             POSTGRES_DB: undangan
-            POSTGRES_USER: root
-            POSTGRES_PASSWORD: 12345678
+            POSTGRES_USER: undangan
+            POSTGRES_PASSWORD: Lakonage13@
         volumes:
             - postgres_data:/var/lib/postgresql/data
         networks:

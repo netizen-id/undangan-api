@@ -3,7 +3,7 @@ services:
         build:
             context: .
             dockerfile: docker/php/Dockerfile
-        container_name: undangan-app
+        container_name: undangan-fsmzni
         depends_on:
             - db
         networks:
